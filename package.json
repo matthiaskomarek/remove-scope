@@ -1,0 +1,44 @@
+{
+  "name": "remove-scope",
+  "version": "1.0.0",
+  "description": "Remove @scope part from a string",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "npm run jest",
+    "prepublish": "npm test && npm run tsc",
+    "tsc": "tsc",
+    "jest": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthiaskomarek/remove-scope.git"
+  },
+  "keywords": [
+    "scope",
+    "remove",
+    "scope",
+    "scoped",
+    "package"
+  ],
+  "author": "Matthias Komarek <matthias@mkomarek.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthiaskomarek/remove-scope/issues"
+  },
+  "homepage": "https://github.com/matthiaskomarek/remove-scope#readme",
+  "devDependencies": {
+    "jest": "^19.0.2",
+    "ts-jest": "^19.0.9",
+    "typescript": "^2.2.2"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": ".(/tests/.*|(\\.|/)(test|spec))\\.ts"
+  }
+}
