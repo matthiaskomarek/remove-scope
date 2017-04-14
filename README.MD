@@ -3,6 +3,10 @@
 
 #### How it works
 ```
+npm install remove-scope --save
+```
+
+```
 const removeScope = require('remove-scope').removeScope
 
 removeScope('@package/test-name');
